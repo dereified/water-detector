@@ -22,7 +22,9 @@ Water detector designed to minimise current consumption.
 
 Detecting water is trivial, but an MCU-based solution was chosen to minimise current consumption for a device to be left unattended for years. Current consumption should be a few uA when water not detected and so for 3xAA cells self-discharge happen much sooner (~5 years).
 
-Circuit is designed for a usually-dry sump, so current consumption is higher when water is detected (but still <1mA). Two water-marks are used to allow preventative (lwm) and reactive (hwm) detection.
+Circuit is designed for a usually-dry sump, so current consumption is higher when water is detected (but still <1mA). However, the main differentiator for current consumption, when compared to the trivial circuit, is that this circuit will last weeks of total activation time, rather than mere hours.
+
+Two water-marks are used to allow preventative (lwm) and reactive (hwm) detection.
 
 Signals
 -------
